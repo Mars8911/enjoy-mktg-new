@@ -1,0 +1,108 @@
+
+.about-us .down-arrow {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+
+bbb.now-in-view{
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+   -webkit-animation-delay: 0.35s;
+  animation-delay: 0.35s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.about-us .title h2.now-in-view,
+.sec-title.now-in-view h2,
+.about-section-two .content-column h2.now-in-view,
+.portfolio-item-full-width.style-two .content-column h2.now-in-view,
+.portfolio-single.style-two .text-column .inner-column.now-in-view{
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.about-us .text-box.now-in-view,
+.portfolio-item-full-width .content-column h2.now-in-view,
+.about-section-two .image-column .inner-column.now-in-view,
+.portfolio-single.style-two .info-column .inner-column.now-in-view{
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.portfolio-carousel-two .active .content-box,
+.page-title .drops-icon.now-in-view,
+.page-title .drop-icon.now-in-view,
+.error-page-section .icon-1.now-in-view{
+  -webkit-animation-name: slideInRight;
+  animation-name: slideInRight;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.page-title .drop-icon-small.now-in-view{
+  -webkit-animation-name: slideInLeft;
+  animation-name: slideInLeft;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.error-page-section .icon-2.now-in-view{
+  -webkit-animation-name: zoomInStable;
+  animation-name: zoomInStable;
+  -webkit-animation-duration: 2.5s;
+  animation-duration: 2.5s;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.sec-title.text-center.now-in-view h2,
+.sec-title.centered.now-in-view h2,
+.main-footer .footer-logo img.now-in-view,
+.portfolio-carousel-one .active .content-column .tag,
+.page-title h1 span.now-in-view,
+.page-title .drops-icon.now-in-view{
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.error-section .btn-style-one.now-in-view{
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
