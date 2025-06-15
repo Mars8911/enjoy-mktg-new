@@ -5436,3 +5436,7 @@ img{
 .scroller-section .content-box .theme-btn{
 	padding: 25px 50px;
 }
+
+.brandSwiper .swiper-pagination {
+	bottom: 0px !important; /* 讓分頁點緊貼圖片下方 */
+}

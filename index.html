@@ -10,6 +10,7 @@
 <link href="plugins/revolution/css/navigation.css" rel="stylesheet" type="text/css"><!-- REVOLUTION NAVIGATION STYLES -->
 <link href="css/style.css" rel="stylesheet">
 <link href="css/responsive.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
 <!--Favicon-->
 <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
@@ -746,6 +747,42 @@
     </section>
     <!-- END 知識分享 -->
 
+      <!-- 品牌合作動態LOGO -->
+    <section class="blog-grid">
+        <div class="auto-container">
+            <div class="sec-title text-center">
+                <h2>合作品牌</h2>
+            </div>
+            <div class="swiper brandSwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="images/brand-demo.jpg" alt="品牌1">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/brand-demo.jpg" alt="品牌2">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/brand-demo.jpg" alt="品牌3">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/brand-demo.jpg" alt="品牌4">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/brand-demo.jpg" alt="品牌5">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/brand-demo.jpg" alt="品牌5">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/brand-demo.jpg" alt="品牌7">
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+    <!-- END 品牌合作動態LOGO -->
+
     <!--Bottom Parallax-->
     <div class="bottom-parallax">
 		<!--Main Footer-->
@@ -843,5 +880,39 @@
 <script src="js/isotope.js"></script>
 <script src="js/element-in-view.js"></script>
 <script src="js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".brandSwiper", {
+        slidesPerView: 5,
+        spaceBetween: 30,
+        loop: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        breakpoints: {
+            320: {
+                slidesPerView: 2,
+                spaceBetween: 20
+            },
+            480: {
+                slidesPerView: 3,
+                spaceBetween: 30
+            },
+            768: {
+                slidesPerView: 4,
+                spaceBetween: 30
+            },
+            1024: {
+                slidesPerView: 5,
+                spaceBetween: 30
+            }
+        }
+    });
+</script>
 </body>
 </html>
